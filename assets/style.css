@@ -1,0 +1,74 @@
+body {
+    background: gray;
+}
+
+header {
+    background: navy;
+    padding-top: 10px;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+nav {
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: red;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+    background-size: cover;
+}
+
+#about{
+    text-align: center;
+}
+
+#about p {
+    background-color: red;
+
+}
+
+.content{
+    background-color: brown;
+    height: 150px;
+}
+.content, #about p{
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px ;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+    body{
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: skyblue;
+    }
+}
